@@ -15,6 +15,8 @@ public class Main extends Application {
 			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			primaryStage.setScene(scene);
 			primaryStage.show();
+			primaryStage.setTitle("hjh");
+			System.out.print("코드 변경 테스트입니다.");
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
